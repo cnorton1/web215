@@ -1,0 +1,43 @@
+h1 {
+position : absolute;
+width : 100%;
+font-family : 'Lucida Console';
+color : #556b2f;
+text-align : center;
+}
+body {
+background-image : url('http://students.cpcc.edu/~cnorton1/web215/images/paper_bg.jpg');
+}
+h2 {
+font-family : 'Lucida Console';
+color : #556b2f;
+text-align : center;
+}
+p {
+padding : 120px;
+color : #556b2f;
+text-align : center;
+}
+
+div.footer {
+position : absolute;
+bottom : 0;
+}
+
+#sprite{margin:40px;
+			width:100px;
+			float:left;
+			padding:25px;
+}
+
+.mouse, .control, .chip, .skull
+{ display: block; background: url('http://students.cpcc.edu/~cnorton1/web215/images/tmp.png') no-repeat; }
+ 
+.mouse{ background-position: -0px -0px; width: 150px; height: 99px; }
+.control { background-position: -150px -0px; width: 150px; height: 99px; }
+.chip{ background-position: -0px -99px; width: 150px; height: 99px; }
+.skull { background-position: -150px -99px; width: 150px; height: 99px; }
+.mouse:hover { background-position: -150px -99px; width: 150px; height: 99px; }
+.control:hover { background-position: -0px -0px; width: 150px; height: 99px; }
+.chip:hover { background-position: -150px -0px; width: 150px; height: 99px; }
+.skull:hover { background-position: -0px -99px; width: 150px; height: 99px; }

@@ -1,0 +1,21 @@
+body{
+background-color: grey;
+color: black;
+font-family: Verdana, serif;
+}
+
+head{
+background-color: grey;
+color: black;
+font-family: Verdana, serif;
+}
+
+h1{
+font: 16px;
+color: white;
+}
+
+div{
+color: white;
+font: 12px;
+}
